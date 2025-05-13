@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Mail, Phone, Send, ExternalLink } from 'lucide-react';
-
 const ContactSection = () => {
-  return (
-    <section className="content-section bg-gray-50 dark:bg-gray-800">
+  return <section className="content-section bg-gray-50 dark:bg-gray-800">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="section-title">Contact Us</h2>
@@ -26,49 +23,31 @@ const ContactSection = () => {
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Your Name
                   </label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue"
-                    placeholder="Enter your name"
-                  />
+                  <input type="text" className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue" placeholder="Enter your name" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Email Address
                   </label>
-                  <input 
-                    type="email" 
-                    className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue"
-                    placeholder="Enter your email"
-                  />
+                  <input type="email" className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue" placeholder="Enter your email" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Subject
                   </label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue"
-                    placeholder="Enter message subject"
-                  />
+                  <input type="text" className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue" placeholder="Enter message subject" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Message
                   </label>
-                  <textarea 
-                    className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue h-32"
-                    placeholder="Enter your message"
-                  ></textarea>
+                  <textarea className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-rnsit-blue dark:focus:ring-rnsit-lightBlue h-32" placeholder="Enter your message"></textarea>
                 </div>
                 
-                <button 
-                  type="submit"
-                  className="w-full py-2 px-4 bg-gradient-to-r from-rnsit-blue to-rnsit-purple text-white rounded-lg hover:opacity-90 transition flex items-center justify-center"
-                >
+                <button type="submit" className="w-full py-2 px-4 bg-gradient-to-r from-rnsit-blue to-rnsit-purple text-white rounded-lg hover:opacity-90 transition flex items-center justify-center">
                   <Send size={18} className="mr-2" /> Send Message
                 </button>
               </form>
@@ -128,18 +107,11 @@ const ContactSection = () => {
               <div className="rounded-lg overflow-hidden h-64 bg-gray-200 dark:bg-gray-700">
                 {/* Google Map would be embedded here */}
                 <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Google Map Integration
-                  </p>
+                  <p className="text-gray-600 dark:text-gray-400">https://maps.app.goo.gl/anuvtBQZjsTeKxrk7</p>
                 </div>
               </div>
               
-              <a 
-                href="https://goo.gl/maps/JfMgUkq4Lc7S4RkC7" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-full mt-4 py-2 px-4 bg-gray-100 dark:bg-gray-800 text-rnsit-blue dark:text-rnsit-lightBlue rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition"
-              >
+              <a href="https://goo.gl/maps/JfMgUkq4Lc7S4RkC7" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full mt-4 py-2 px-4 bg-gray-100 dark:bg-gray-800 text-rnsit-blue dark:text-rnsit-lightBlue rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition">
                 Get Directions <ExternalLink size={16} className="ml-2" />
               </a>
             </div>
@@ -154,15 +126,8 @@ const ContactSection = () => {
               </p>
               
               <div className="flex">
-                <input 
-                  type="email" 
-                  className="flex-grow px-4 py-2 rounded-l-lg border-0 focus:outline-none text-gray-900"
-                  placeholder="Enter your email"
-                />
-                <button 
-                  type="button"
-                  className="bg-white text-rnsit-blue px-4 py-2 rounded-r-lg hover:bg-gray-100 transition"
-                >
+                <input type="email" className="flex-grow px-4 py-2 rounded-l-lg border-0 focus:outline-none text-gray-900" placeholder="Enter your email" />
+                <button type="button" className="bg-white text-rnsit-blue px-4 py-2 rounded-r-lg hover:bg-gray-100 transition">
                   Subscribe
                 </button>
               </div>
@@ -170,8 +135,6 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
