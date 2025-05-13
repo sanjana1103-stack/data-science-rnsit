@@ -45,7 +45,7 @@ const HeroSection = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">Students per batch</p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm card-hover text-center">
-            <p className="text-4xl font-bold text-rnsit-purple dark:text-rnsit-lightPurple mb-1">2021</p>
+            <p className="text-4xl font-bold text-rnsit-purple dark:text-rnsit-lightPurple mb-1">2001</p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">Year Established</p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm card-hover text-center">

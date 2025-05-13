@@ -11,6 +11,8 @@ import PlacementsSection from '@/components/home/PlacementsSection';
 import ContactSection from '@/components/home/ContactSection';
 import NewsletterBanner from '@/components/NewsletterBanner';
 import CampusGallerySection from '@/components/home/CampusGallerySection';
+import InstitutionSection from '@/components/home/InstitutionSection';
+import LeadershipSection from '@/components/home/LeadershipSection';
 
 const Index = () => {
   useEffect(() => {
@@ -24,6 +26,8 @@ const Index = () => {
 
       <main className="flex-grow">
         <HeroSection />
+        <InstitutionSection />
+        <LeadershipSection />
         <AboutSection />
         <FacultySection />
         <AcademicsSection />

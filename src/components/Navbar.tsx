@@ -91,6 +91,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-3">
+          <img src="/lovable-uploads/ed7a4209-4979-4214-ab5d-3fe8f2b8f9c1.png" alt="RNSIT Logo" className="h-12" />
           <span className="font-display font-bold text-xl md:text-2xl">
             <span className="text-rnsit-blue">RNSIT</span>
             <span className="text-rnsit-purple"> | Data Science</span>

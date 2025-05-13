@@ -6,33 +6,33 @@ const CampusGallerySection = () => {
   const campusImages = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+      url: "/lovable-uploads/b8eca5c3-6920-46a4-8e1d-ed60bff7a216.png",
       alt: "RNSIT Campus Building"
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
-      alt: "Department Building"
+      url: "/lovable-uploads/da04a371-cd3f-43d9-b2f8-6e5b9bb33e8e.png",
+      alt: "Cultural Performance at RNSIT"
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1431576901776-e539bd916ba2",
-      alt: "Campus View"
+      url: "/lovable-uploads/b5ff85f9-da72-4073-a7ad-9648e4463da0.png",
+      alt: "Sports Activities at RNSIT"
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e",
-      alt: "Campus Architecture"
+      url: "/lovable-uploads/cf217805-75d6-477d-add6-055005c55a92.png",
+      alt: "Cultural Dance Performance"
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace",
-      alt: "Modern Facilities"
+      url: "/lovable-uploads/71bc52c5-97eb-4c4a-9736-1895b648451e.png",
+      alt: "Student Achievements"
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1460574283810-2aab119d8511",
-      alt: "Student Center"
+      url: "/lovable-uploads/c05e78a9-c648-41ea-81b5-23d89ee8b4ad.png",
+      alt: "Sports at RNSIT"
     }
   ];
 
@@ -42,8 +42,8 @@ const CampusGallerySection = () => {
         <div className="text-center mb-12">
           <h2 className="section-title">Our Campus</h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Experience the modern facilities and beautiful surroundings of RNSIT's campus, 
-            where innovation and learning thrive.
+            Experience the modern facilities and vibrant campus life at RNSIT, 
+            where academics, sports, and cultural activities thrive in harmony.
           </p>
         </div>
 
