@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 pt-28 pb-20 md:pt-32 md:pb-24 overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 pt-28 pb-20 md:pt-32 md:pb-24 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="absolute top-[10%] right-[5%] w-64 h-64 rounded-full bg-blue-200/20 dark:bg-blue-500/5 blur-3xl"></div>
@@ -20,12 +17,16 @@ const HeroSection = () => {
             <br className="hidden md:block" />Discover the Future.
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 animate-fade-in" style={{
+          animationDelay: '0.2s'
+        }}>
             Welcome to the Department of Computer Science & Engineering (Data Science) at RNSIT. 
             Empowering students to extract insights from data and shape the future of technology.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in" style={{
+          animationDelay: '0.4s'
+        }}>
             <Link to="/academics/curriculum" className="btn-gradient px-6 py-3 rounded-lg font-medium hover:shadow-lg flex items-center transition-all duration-300">
               View Curriculum <ArrowRight size={18} className="ml-2" />
             </Link>
@@ -39,13 +40,15 @@ const HeroSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: '0.6s' }}>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto animate-fade-in" style={{
+        animationDelay: '0.6s'
+      }}>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm card-hover text-center">
             <p className="text-4xl font-bold text-rnsit-blue dark:text-rnsit-lightBlue mb-1">120</p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">Students per batch</p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm card-hover text-center">
-            <p className="text-4xl font-bold text-rnsit-purple dark:text-rnsit-lightPurple mb-1">2001</p>
+            <p className="text-4xl font-bold text-rnsit-purple dark:text-rnsit-lightPurple mb-1">2021</p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">Year Established</p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm card-hover text-center">
@@ -58,8 +61,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
