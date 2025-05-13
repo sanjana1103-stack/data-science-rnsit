@@ -12,13 +12,13 @@ const FacultyPage = () => {
     document.title = "Faculty - RNSIT Department of CSE (Data Science)";
   }, []);
 
-  // All faculty data
+  // All faculty data with updated images
   const allFacultyMembers = [
     {
       id: 1,
       name: "Dr. Mohan H S",
       role: "Professor & Head",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Mohan-H-S.jpg",
+      image: "/lovable-uploads/243ebbb3-4960-46db-bfb4-faba44d9fcc8.png",
       qualification: "Ph.D. in Cryptography & Network Security",
       research: "Network Security, Cryptography, Data Privacy",
       linkedin: "https://www.linkedin.com/"
@@ -27,7 +27,7 @@ const FacultyPage = () => {
       id: 2,
       name: "Dr. Srinivas A",
       role: "Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Srinivas-A.jpg",
+      image: "/lovable-uploads/d077c916-ed0c-460c-8f9b-c36fd1b5ab40.png",
       qualification: "Ph.D. in Healthcare Informatics & Agriculture Technology",
       research: "Healthcare Data Analytics, Agricultural Technology",
       linkedin: "https://www.linkedin.com/"
@@ -36,7 +36,7 @@ const FacultyPage = () => {
       id: 3,
       name: "Dr. Sreevidya R C",
       role: "Associate Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Sreevidya-R-C.jpg",
+      image: "/lovable-uploads/84633ab6-12d8-4e2d-b356-4a3f501d2c76.png",
       qualification: "Ph.D. in WSN, AI, ML",
       research: "Wireless Sensor Networks, Artificial Intelligence",
       linkedin: "https://www.linkedin.com/"
@@ -45,7 +45,7 @@ const FacultyPage = () => {
       id: 4,
       name: "Dr. Mahantesh K",
       role: "Associate Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Mahantesh-K.jpg",
+      image: "/lovable-uploads/e838e9ab-518c-4176-8f1f-fc5779141682.png",
       qualification: "Ph.D. in Computer Networking & Engineering",
       research: "Computer Networks, Network Security",
       linkedin: "https://www.linkedin.com/"
@@ -54,7 +54,7 @@ const FacultyPage = () => {
       id: 5,
       name: "Dr. Naveen L",
       role: "Associate Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Naveen-L.jpg",
+      image: "/lovable-uploads/21795374-2460-44c9-adc3-cc6d94a8fed0.png",
       qualification: "Ph.D. in Neural Networks, ML, AI",
       research: "Neural Networks, Machine Learning, AI Applications",
       linkedin: "https://www.linkedin.com/"
@@ -63,7 +63,7 @@ const FacultyPage = () => {
       id: 6,
       name: "Dr. Savita S J",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Dr.-Savita-S-J.jpg",
+      image: "/lovable-uploads/65dc1bc3-79eb-4fe4-8faf-f5000270919f.png",
       qualification: "Ph.D. in Electrical & Electronics Engineering",
       research: "Signal Processing, IoT Applications",
       linkedin: "https://www.linkedin.com/"
@@ -72,7 +72,7 @@ const FacultyPage = () => {
       id: 7,
       name: "Mr. Sunil G L",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Mr.-Sunil-G-L.jpg",
+      image: "/lovable-uploads/15eb02e7-3282-4afc-910b-82865ae8ebb9.png",
       qualification: "M.Tech in Machine Learning",
       research: "Deep Learning, Computer Vision",
       linkedin: "https://www.linkedin.com/"
@@ -81,7 +81,7 @@ const FacultyPage = () => {
       id: 8,
       name: "Ms. Anu Mathews",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Anu-Mathews.jpg",
+      image: "/lovable-uploads/941db813-0f44-4ae1-aefb-475ca56c9e65.png",
       qualification: "M.Tech in Machine Learning",
       research: "Natural Language Processing, Deep Learning",
       linkedin: "https://www.linkedin.com/"
@@ -90,7 +90,7 @@ const FacultyPage = () => {
       id: 9,
       name: "Ms. Ramya B K",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Ramya-B-K.jpg",
+      image: "/lovable-uploads/45b8e3c3-99d8-4dcc-b9f8-d78a37b2d38d.png",
       qualification: "M.Tech in Computer Networks Engineering",
       research: "Computer Networks, Network Security",
       linkedin: "https://www.linkedin.com/"
@@ -99,7 +99,7 @@ const FacultyPage = () => {
       id: 10,
       name: "Ms. Smitha B A",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Smitha-B-A.jpg",
+      image: "/lovable-uploads/bcdbec73-7293-40cd-9ba4-fe9f6458697c.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Data Mining, Big Data Analytics",
       linkedin: "https://www.linkedin.com/"
@@ -108,7 +108,7 @@ const FacultyPage = () => {
       id: 11,
       name: "Ms. Pavithra J",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Pavithra-J.jpg",
+      image: "/lovable-uploads/778fc6a5-98af-4299-b142-4dc94b1a63f0.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Cloud Computing, Distributed Systems",
       linkedin: "https://www.linkedin.com/"
@@ -117,7 +117,7 @@ const FacultyPage = () => {
       id: 12,
       name: "Ms. Navyashree K S",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Navyashree-K-S.jpg",
+      image: "/lovable-uploads/82d28928-52c2-496e-ab3b-7539c05ba807.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Information Security, Blockchain",
       linkedin: "https://www.linkedin.com/"
@@ -126,7 +126,7 @@ const FacultyPage = () => {
       id: 13,
       name: "Ms. Vinutha S",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Vinutha-S.jpg",
+      image: "/lovable-uploads/5993bfb1-ec1c-446d-84e0-4920a0cbed1d.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Web Mining, Information Retrieval",
       linkedin: "https://www.linkedin.com/"
@@ -135,7 +135,7 @@ const FacultyPage = () => {
       id: 14,
       name: "Ms. Vidya Shirodkar",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Vidya-Shirodkar.jpg",
+      image: "/lovable-uploads/30b0e6b3-275a-4093-8657-dea9cd78b47a.png",
       qualification: "M.Tech in Information Technology",
       research: "Database Systems, Data Warehousing",
       linkedin: "https://www.linkedin.com/"
@@ -144,7 +144,7 @@ const FacultyPage = () => {
       id: 15,
       name: "Ms. Mythri S",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Mythri-S.jpg",
+      image: "/lovable-uploads/06d4da3e-29b9-4040-8e67-c8783ebf5662.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Software Engineering, Software Testing",
       linkedin: "https://www.linkedin.com/"
@@ -153,7 +153,7 @@ const FacultyPage = () => {
       id: 16,
       name: "Ms. Rachitha E",
       role: "Assistant Professor",
-      image: "https://www.rnsit.ac.in/wp-content/uploads/2023/09/Ms.-Rachitha-E.jpg",
+      image: "/lovable-uploads/30e5b50c-4a36-445b-ab6f-7b2f3f9b6bc4.png",
       qualification: "M.Tech in Computer Science & Engineering",
       research: "Image Processing, Pattern Recognition",
       linkedin: "https://www.linkedin.com/"
