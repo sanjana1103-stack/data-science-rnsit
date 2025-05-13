@@ -1,12 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import HeroSection from '@/components/home/HeroSection';
+import AboutSection from '@/components/home/AboutSection';
+import FacultySection from '@/components/home/FacultySection';
+import AcademicsSection from '@/components/home/AcademicsSection';
+import EventsSection from '@/components/home/EventsSection';
+import PlacementsSection from '@/components/home/PlacementsSection';
+import ContactSection from '@/components/home/ContactSection';
+import NewsletterBanner from '@/components/NewsletterBanner';
 
 const Index = () => {
+  useEffect(() => {
+    // Update document title
+    document.title = "RNSIT Department of CSE (Data Science)";
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+
+      <main className="flex-grow">
+        <HeroSection />
+        <AboutSection />
+        <FacultySection />
+        <AcademicsSection />
+        <EventsSection />
+        <PlacementsSection />
+        <ContactSection />
+      </main>
+
+      <NewsletterBanner />
+      <Footer />
     </div>
   );
 };
