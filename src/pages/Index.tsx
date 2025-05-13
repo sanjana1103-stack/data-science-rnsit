@@ -10,6 +10,7 @@ import EventsSection from '@/components/home/EventsSection';
 import PlacementsSection from '@/components/home/PlacementsSection';
 import ContactSection from '@/components/home/ContactSection';
 import NewsletterBanner from '@/components/NewsletterBanner';
+import CampusGallerySection from '@/components/home/CampusGallerySection';
 
 const Index = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const Index = () => {
         <FacultySection />
         <AcademicsSection />
         <EventsSection />
+        <CampusGallerySection />
         <PlacementsSection />
         <ContactSection />
       </main>
