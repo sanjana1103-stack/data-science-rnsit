@@ -1,8 +1,11 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+
 const AboutSection = () => {
-  return <section className="content-section bg-white dark:bg-gray-900">
+  return (
+    <section className="content-section bg-white dark:bg-gray-900">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="section-title">About The Department</h2>
@@ -61,7 +64,11 @@ const AboutSection = () => {
               <div className="absolute -top-6 -right-6 w-64 h-64 bg-blue-100 dark:bg-blue-900/20 rounded-lg"></div>
               <div className="absolute -bottom-6 -left-6 w-64 h-64 bg-purple-100 dark:bg-purple-900/20 rounded-lg"></div>
               <div className="relative bg-white dark:bg-gray-800 p-1 rounded-lg shadow-lg">
-                <img alt="Students working on Data Science projects" className="rounded-lg" src="https://www.rnsit.ac.in/wp-content/themes/rnsit/img/vision-mission.jpg" />
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" 
+                  alt="Students working on Data Science projects" 
+                  className="rounded-lg"
+                />
               </div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm p-4 rounded-lg shadow-lg">
                 <p className="text-center text-lg font-bold gradient-text">Established in 2021</p>
@@ -71,6 +78,8 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default AboutSection;
