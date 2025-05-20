@@ -79,7 +79,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/placements" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
+                <Link to="/stats" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
                   Placements
                 </Link>
               </li>
@@ -96,7 +96,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4 text-rnsit-blue dark:text-rnsit-lightBlue">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/resources" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
+                <Link to="/academics/syllabus" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
                   E-Learning Resources
                 </Link>
               </li>
@@ -116,13 +116,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/resources/datasets" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
-                  Public Datasets
+                <Link to="/templates" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
+                  Templates
                 </Link>
               </li>
               <li>
-                <Link to="/resources/coding-platforms" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
-                  Coding Platforms
+                <Link to="/elements" className="text-gray-600 dark:text-gray-400 hover:text-rnsit-blue dark:hover:text-rnsit-lightBlue transition">
+                  UI Elements
                 </Link>
               </li>
             </ul>

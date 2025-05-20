@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -33,7 +34,7 @@ const HeroSection = () => {
             <Link to="/events" className="bg-white dark:bg-gray-800 text-rnsit-blue dark:text-rnsit-lightBlue px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300">
               Explore Events
             </Link>
-            <Link to="/people/students" className="bg-transparent border border-rnsit-blue dark:border-rnsit-lightBlue text-rnsit-blue dark:text-rnsit-lightBlue px-6 py-3 rounded-lg font-medium hover:bg-rnsit-blue hover:text-white dark:hover:bg-rnsit-lightBlue dark:hover:text-gray-900 transition-all duration-300">
+            <Link to="/community" className="bg-transparent border border-rnsit-blue dark:border-rnsit-lightBlue text-rnsit-blue dark:text-rnsit-lightBlue px-6 py-3 rounded-lg font-medium hover:bg-rnsit-blue hover:text-white dark:hover:bg-rnsit-lightBlue dark:hover:text-gray-900 transition-all duration-300">
               Join Community
             </Link>
           </div>
@@ -59,6 +60,12 @@ const HeroSection = () => {
             <p className="text-4xl font-bold text-rnsit-purple dark:text-rnsit-lightPurple mb-1">100%</p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">Placement Record</p>
           </div>
+        </div>
+        
+        <div className="text-center mt-8">
+          <Link to="/stats" className="inline-flex items-center text-rnsit-blue dark:text-rnsit-lightBlue hover:underline">
+            View Detailed Stats <ArrowRight size={16} className="ml-1" />
+          </Link>
         </div>
       </div>
     </section>;

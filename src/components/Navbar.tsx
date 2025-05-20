@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -79,17 +80,21 @@ const Navbar = () => {
     name: 'Events',
     path: '/events'
   }, {
-    name: 'Research',
-    path: '/research'
+    name: 'Community',
+    path: '/community'
   }, {
-    name: 'Placements',
-    path: '/placements'
+    name: 'Stats',
+    path: '/stats'
   }, {
     name: 'Resources',
-    path: '/resources'
-  }, {
-    name: 'Gallery',
-    path: '/gallery'
+    path: '/resources',
+    dropdown: [{
+      name: 'Templates',
+      path: '/templates'
+    }, {
+      name: 'UI Elements',
+      path: '/elements'
+    }]
   }, {
     name: 'Contact',
     path: '/contact'

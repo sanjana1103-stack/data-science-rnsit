@@ -77,7 +77,7 @@ const EventsSection = () => {
                   <span>{event.location}</span>
                 </div>
                 <Link 
-                  to={`/events/${event.id}`}
+                  to={`/events`}
                   className="inline-block px-4 py-2 bg-gray-100 dark:bg-gray-800 text-rnsit-blue dark:text-rnsit-lightBlue rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition"
                 >
                   Event Details
