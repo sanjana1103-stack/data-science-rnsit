@@ -1,7 +1,8 @@
+
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { ArrowRight, Users, MessageSquare, DiscordLogo, MessagesSquare, Mail } from 'lucide-react';
+import { ArrowRight, Users, MessageSquare, Discord, MessagesSquare, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CommunityPage = () => {
@@ -47,7 +48,7 @@ const CommunityPage = () => {
     {
       name: "Discord Server",
       description: "Join our active Discord community for discussions, resources sharing, and connecting with peers and alumni.",
-      icon: DiscordLogo,
+      icon: Discord,
       color: "bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300",
       link: "#"
     },
