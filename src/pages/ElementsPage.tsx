@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -35,7 +34,6 @@ const ElementsPage = () => {
           title: "Warning",
           description: "This action might have consequences.",
           variant: "default",
-          icon: <AlertTriangle className="h-4 w-4" />,
         });
         break;
       case 'info':
@@ -43,7 +41,6 @@ const ElementsPage = () => {
           title: "Information",
           description: "Just letting you know something.",
           variant: "default",
-          icon: <Info className="h-4 w-4" />,
         });
         break;
     }
