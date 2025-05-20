@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useToast } from "@/hooks/use-toast";
+import LoginButton from './LoginButton';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
@@ -127,14 +129,18 @@ const Navbar = () => {
                   {item.name}
                 </Link>)}
           </div>
-          <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition" aria-label="Toggle theme">
-            {isDark ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-gray-700" />}
-          </button>
+          <div className="flex items-center space-x-4">
+            <LoginButton />
+            <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition" aria-label="Toggle theme">
+              {isDark ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-gray-700" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu Button */}
         <div className="flex items-center lg:hidden">
-          <button onClick={toggleTheme} className="p-2 mr-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition" aria-label="Toggle theme">
+          <LoginButton />
+          <button onClick={toggleTheme} className="p-2 mx-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition" aria-label="Toggle theme">
             {isDark ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-gray-700" />}
           </button>
           <button onClick={toggleMenu} className="p-2 rounded-md text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition" aria-label="Toggle menu">
